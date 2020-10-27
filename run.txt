@@ -1,0 +1,55 @@
+N
+36
+radius
+1e-6
+ncycles
+1
+number of steps for capture
+3000
+cargo capture only Flag(this is for capture/goingto target, but not do collective motion to transport the cargo)
+1
+cargo capture and transport flag
+0
+Collective Move Cycle, collective move step, collective restore step 
+10000 10 0
+dt(s)
+0.0001
+control time interval (s), assignment time interval
+0.1 0.1
+diffu_t
+2.145e-13
+diffu_r
+0.161
+maximum speed for particle m/s
+5.0e-6
+Bpp
+2.29
+Os_pressure (kT nm^3) 5.8e-8 for 5kT attraction
+5.80000e-08
+L_dep
+0.2
+cutoff
+2.5
+kappa
+50
+seed
+5
+trajOutputInterval
+20000
+target dynamic flag (whether target will do Brownian motion and drift motion)
+1
+target diffusion coefficent ratio, target velocity ratio, will target interacting with other objects? 
+1.0 0.0 1
+target center position
+0 0 0
+transporter nb thresh, dist thresh, angle thresh in degree
+3  1.0 30
+initial config config_forlocking_large.txt
+config_forlocking_large.txt
+file tag
+multip_capture
+target config
+targetConfigs/target_36pd=2.158.txt
+
+
+
